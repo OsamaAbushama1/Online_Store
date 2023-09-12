@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- FOnt Awesome -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- Render All Element -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- Css File -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Bootstrap File -->
+        <link rel="stylesheet" href="Bootstrap/bootstrap.min.css" />
+        <title>Osama</title>
+    </head>
+<body>
+    <!-- Start Header -->
+    <nav
+        class="p-lg-2 navbar fixed-top navbar-expand-lg navbar-light bg-body-tertiary navy">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">
+                <img src="img/logo.PNG" alt=""
+                /></a>
+                <button
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a
+                            class="nav-link active text-uppercase fw-bold"
+                            aria-current="page"
+                            href="index.html"
+                            >Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a
+                        class="nav-link dropdown-toggle text-uppercase fw-bold"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Shop
+                        </a>
+                    <ul
+                        class="dropdown-menu text-uppercase mt-3 border-0 rounded-0 pt-0">
+                        <li><a class="dropdown-item" href="product_details.html">Product Details</a></li>
+                        <li><a class="dropdown-item" href="checkout.html" >Product Checkout</a></li>
+                        <li><a class="dropdown-item" href="shopping_cart.html">Shopping Cart</a></li>
+                        <li><a class="dropdown-item" href="confirmation.html">Confirmation</a></li>
+                    </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a
+                        class="nav-link dropdown-toggle text-uppercase fw-bold"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Blog
+                        </a>
+                    <ul class="dropdown-menu text-uppercase mt-3 border-0 rounded-0 pt-0">
+                        <li><a class="dropdown-item" href="blog_pages/blog.html" >Blog</a></li>
+                        <li><a class="dropdown-item" href="blog_pages/blog_details.html" >Blog Details</a></li>
+                    </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a
+                        class="nav-link dropdown-toggle text-uppercase fw-bold"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Pages
+                        </a>
+                    <ul
+                    class="dropdown-menu mt-3 text-uppercase border-0 rounded-0 pt-0">
+                    <li><a class="dropdown-item" href="pages/login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="pages/tracking.html">Tracking</a></li>
+                    </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-bold" href="contact.html">Contact</a>
+                    </li>
+                <li class="nav-item">
+                <!-- <a class="nav-link log" href="#">Log In</a> -->
+                <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+                <li class="nav-item">
+                <!-- <a class="nav-link" href="#">Register</a> -->
+                <i class="glass fa-solid fa-magnifying-glass"></i>
+                <input placeholder="Type to search..." />
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    <!-- End Header -->
+        <!-- Start product define -->
+    <div class="define">
+        <div class="container">
+            <div class="con">
+                <h1>Product Checkout</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                    <li><a href="product_details.html">Shop</a></li>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                    <li><a href="checkout.html">Product Checkout</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End product define -->
+    <!-- Start CheckOut  -->
+    <div class="checkout">
+        <div class="container">
+            <div class="customer">
+                <h6 class="same">Returning Customer? 
+                    <a href="">Click here to login</a>
+                </h6>
+                <p>If you have shopped with us before, 
+                    please enter your details in the boxes below. 
+                    If you are a new customer, please proceed to the Billing & Shipping section.
+                </p>
+                <form>
+                    <input type="text" placeholder="Username or Email">
+                    <input type="password" placeholder="Password ">
+                </form>
+                <button type="submit">Login</button>
+                    <div class="remember">
+                        <input type="checkbox" id="rem">
+                        <label for="rem">Remember me</label>
+                    </div>
+                <a href="" class="lost">Lost Your Password?</a>
+            </div>
+        </div>
+    </div>
+    <!-- End CheckOut  -->
+    <!-- Start Coupon -->
+    <div class="coupon">
+        <div class="container">
+            <h6 class="same">Have a coupon?
+                <a href="">Click here to enter your code</a>
+            </h6>
+            <form >
+                <input type="text" placeholder="Enter  Coupon Code">
+                <button type="submit">Apply Coupon</button>
+            </form>
+        </div>
+    </div>
+    <!-- End Coupon -->
+    <!-- Start Billing -->
+    <div class="billing">
+        <div class="container">
+            <h4>Billing Details</h4>
+            <div class="details">
+                <div class="form-and-shipping">
+                    <form >
+                        <div class="first">
+                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                        <input type="text" placeholder="Company" class="Company">
+                        <div class="sec">
+                            <input type="text" placeholder="phone Number">
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <select name="Country" id="Country">
+                            <option value="Egypt">Egypt</option>
+                            <option value="Egypt">UK</option>
+                            <option value="Egypt">Saudi Arabia</option>
+                        </select>
+                        <div class="address">
+                            <input type="text" placeholder="Address line 01">
+                            <input type="text" placeholder="Address line 02">
+                        </div>
+                        <input type="text" placeholder="Twon / City" class="town">
+                        <select name="District" id="District">
+                            <option value="Egypt">District</option>
+                            <option value="Egypt">District</option>
+                            <option value="Egypt">District</option>
+                        </select>
+                        <input type="text" placeholder="Postal Code">
+                        <input type="checkbox">
+                        <input type="submit" value="Create an Account?">
+                    </form>
+                    <!-- ! Start Shipping Details -->
+                <h4>Shipping Details</h4>
+                <form>
+                    <input type="checkbox">
+                    <input type="submit" value="Ship to a different address?">
+                    <textarea placeholder="Order Notes"></textarea>
+                </form>
+                <!-- ! End Shipping Details -->
+                </div>
+                <div class="order">
+                    <h5>Your Order</h5>
+                    <div class="parts">
+                        <p>Product</p>
+                        <span>Total</span>
+                    </div>
+                    <div class="parts">
+                        <p>Fresh Blackberry </p>
+                        <span>x02</span>
+                        <span>$720.00</span>
+                    </div>
+                    <div class="parts">
+                        <p>Fresh Tomatoes </p>
+                        <span>x02</span>
+                        <span>570.00</span>
+                    </div>
+                    <div class="parts">
+                        <p>Fresh Brocoli  </p>
+                        <span class="last">x02</span>
+                        <span>970.00</span>
+                    </div>
+                    <div class="last">
+                        <p>SUBTOTAL</p>
+                        <span>$2260.00</span>
+                    </div>
+                    <div class="last">
+                        <p>SHIPPING</p>
+                        <span>$50.00</span>
+                    </div>
+                    <div class="last">
+                        <p>TOTAL</p>
+                        <span class="total">$2310.00</span>
+                    </div>
+                    <!-- ! Start Payment -->
+                    <form>
+                        <input type="radio" id="check" name="payment">
+                        <label for="check">Check Payment</label>
+                        <p class="pay">Please send a check to Store Name, Store Street, 
+                            Store Town, Store State / County, Store Postcode.
+                        </p>
+                        <input type="radio" id="check" name="payment">
+                        <label for="check">Paypal</label>
+                        <p class="pay">Pay via PayPal; you can pay with your credit card if you do not 
+                            have a PayPal account.</p>
+                        <div class="terms">
+                            <input type="checkbox">
+                            <p>I’ve read and accept the 
+                                <a href="">terms & conditions*</a>
+                            </p>
+                        </div>
+                    </form>
+                    <!-- ! End Payment -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Billing -->
+    <!-- Start footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="foot">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Ea quam ex, corporis necessitatibus 
+                    </p>
+                </div>
+                <div class="foot">
+                    <h2>NewSletter</h2>
+                    <p>Stay update with our latest</p>
+                    <form>
+                    <input type="email" placeholder="Enter Email">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </form>
+                </div>
+                <div class="foot">
+                    <h2>Instagram Feed</h2>
+                    <div class="imgs">
+                    <img src="img/f1.webp" alt="">
+                    <img src="img/f2.webp" alt="">
+                    <img src="img/f3.webp" alt="">
+                    <img src="img/f4.webp" alt="">
+                    <img src="img/f5.webp" alt="">
+                    <img src="img/f6.webp" alt="">
+                    <img src="img/f7.webp" alt="">
+                    <img src="img/f8.webp" alt="">
+                    </div>
+                </div>
+                <div class="foot">
+                    <h2>Follow Us</h2>
+                    <p>Let Us Be Social</p>
+                    <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                </div>
+                <p class="f">Copyright &copy;2023 All rights reserved | This template is made with by <span>Osama Abushama</span></p>
+            </div>
+        <!-- End footer -->
+
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
